@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic' rel='stylesheet'
+          type='text/css'>
+    <link href='/css/style.min.css' rel='stylesheet'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+<body data-is-desktop="true" data-is-tablet="false" data-is-phone="false" data-is-touch="false">
+<h1 class="hide">HSEU1998</h1>
+
+<div id="header"></div>
+
+<div id="navigator"></div>
+
+<main class="page-content" data-page-type="frontpage">
+
+
+    <div class="container">
+
+        <div class="col-xs-12 col-sm-12" data-display="flex">
+            <div align="center">
+<img src="images/recruitment_ad.png" width="50%" height="100%">
+            </div>
+        </div>
+
+    </div>
+    <br><br>
+</main>
+<script>
+    $(function(){
+        $("#head").load("/snippet/head.html");
+        $("#header").load("/snippet/header.html");
+        $("#navigator").load("/snippet/nav.html");
+        $("#footer").load("/snippet/footer.html");
+    });
+</script>
+
+<div id="footer"></div>
+</body>
+
+</html>
